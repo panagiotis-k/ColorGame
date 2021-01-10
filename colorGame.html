@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="colorGame.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Color Game</title>
+  </head>
+  <body>
+    <section class="text-center p-4" id="header">
+        <h3>THE GREAT</h3>
+        <h1 class="display-3"><span id="titleColor"></span></h1>
+        <h3>GUESSING GAME</h3>
+    </section>
+    <nav id="myNavbar" class="navbar navbar-expand p-0">
+        <div class="container-fluid" >
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                <button   type="button" class="btn"><a id="reset" class="nav-link" href="#">NEW COLORS</a></button>
+                </li>
+            </ul>
+            <div class="mx-auto  " style="width:50%;">
+               <p class="m-0 text-center" style="font-size:1.8rem;"></p>
+            </div>
+            <ul class="navbar-nav active">
+                <li  class="nav-item ">
+                    <button id="easyBtn" class="btn"><a class="nav-link" href="#">EASY</a></button>
+                </li>
+                <li class="nav-item" >
+                    <button id="hardBtn" class="btn active selected"  ><a class="nav-link" href="#">HARD</a></button>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <div id="container">
+        <div class="square "></div>
+        <div class="square "></div>
+        <div class="square "></div>
+        <div class="square "></div>
+        <div class="square "></div>
+        <div class="square "></div>
+    </div>
+   
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js" ></script>
+</body>
+</html>
